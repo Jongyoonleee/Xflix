@@ -92,7 +92,6 @@ if st.button('Recommend'):
                 col.image(images[idx])
                 col.write(titles[idx])
                 idx += 1 
-=======
 import pickle
 import streamlit as st
 from tmdbv3api import Movie, TMDb
